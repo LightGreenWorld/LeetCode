@@ -26,7 +26,8 @@ class Solution:
         I thought the function "sorted()" was not enough to exclude abnormality
         like a shortest or longest word without common prefix.
         Once descending order is applied by "sorted()", however,
-        a word with smallest number of prefix letters is put in behind regardless of word length.
+        a word with smallest number of common prefix letters is put at the very front or back
+        regardless of word length.
         """
 
 class Solution:
